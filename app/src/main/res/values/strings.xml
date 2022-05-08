@@ -1,0 +1,22 @@
+<resources>
+  <string name="app_name">HoldMyWidgets</string>
+
+  <string name="title_compass">Bussola</string>
+  <string name="title_clock">Orologio e data</string>
+  <string name="title_coords">Coordinate attuali</string>
+  <string name="title_ip">My IP</string>
+
+  <string name="date_template">Data: %1$s</string>
+  <string name="time_template">Ora: %1$s</string>
+  <string name="location_template">Long: %1$f Lat: %2$f</string>
+
+  <string name="prefs_name">hold_my_widgets_prefs</string>
+  <string name="prefs_key_widget_configuration">widget_configuration</string>
+
+  <string name="not_available">Non disponibile</string>
+  <string name="my_dashboard">My Dashboard</string>
+  <string name="add_widget">Add widget</string>
+  <string name="waiting_for_data">Waiting for data…</string>
+  <string name="remove_this_widget">Remove this widget</string>
+  <string name="location_permissions_not_granted">Location permissions not granted</string>
+</resources>
