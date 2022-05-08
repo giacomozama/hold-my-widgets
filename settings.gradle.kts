@@ -1,3 +1,2 @@
-
 rootProject.name = "HoldMyWidgets"
-include (":app")
+include(":app")
