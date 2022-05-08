@@ -49,7 +49,7 @@ fun WidgetCard(
                     onClick = { onRemove() }
                 ) {
                     Icon(
-                        modifier = Modifier.size(16.dp),
+                        modifier = Modifier.size(18.dp),
                         painter = painterResource(id = R.drawable.ic_remove),
                         tint = MaterialTheme.colors.onSurface,
                         contentDescription = stringResource(id = R.string.remove_this_widget)
