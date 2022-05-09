@@ -10,9 +10,12 @@ import javax.inject.Inject
 class TimeLiveProvider @Inject constructor() {
 
     fun getLiveTime() = flow<LocalDateTime> {
+        val time = LocalDateTime.now()
+        emit(time)
+        delay((60 - time.second) * 1_000L)
         while (currentCoroutineContext().isActive) {
             emit(LocalDateTime.now())
-            delay(1000L)
+            delay(60_000L)
         }
     }
 }
